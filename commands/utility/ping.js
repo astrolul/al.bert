@@ -1,5 +1,4 @@
-const { SlashCommandBuilder } = require('discord.js');
-const { EmbedBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 const exampleEmbed = new EmbedBuilder()
         .setTitle('🟢 Bot Is Currently Online')
